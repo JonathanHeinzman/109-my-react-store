@@ -26,7 +26,7 @@ function Navbar() {
     <nav className="navbar navbar-expand-lg bg-dark bg-gradient" data-bs-theme="dark">
         <div className="container-fluid">
             <div className="navbar-brand">
-                <h1>My Music Store <IconMusic stroke={2} /></h1>
+                <h1>My Music Store <IconMusic size={50} stroke={2} /></h1>
             </div>
             <div className="navbar-menu d-flex justify-between">
                 <ul className="navbar-nav">
