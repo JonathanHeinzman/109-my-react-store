@@ -20,9 +20,9 @@
 }
 
 .prices{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 */
 .product-card {
@@ -47,28 +47,31 @@
 
 .product-category {
   font-size: 0.75rem;
-  color: #888;
   text-transform: uppercase;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.75px;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .product-name {
   font-size: 1.1rem;
-  font-weight: 600;
+  font-weight: 700;
   margin: 0.5rem 0;
-  color: #333;
+  display: flex;
+  justify-content: center;
 }
 
 .product-price {
   font-size: 1rem;
-  color: #4a90a4;
+  display: flex;
+  justify-content: flex-start;
   font-weight: 500;
   margin: 0;
 }
 
 .product-actions {
   padding: 1rem;
-  border-top: 1px solid #eee;
+  border-top: 1px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -76,9 +79,9 @@
 
 .product-total {
   font-size: 0.95rem;
-  color: #333;
+  
 }
-
+/*
 .product-total strong {
   color: #2a7a2a;
-}
+}*/

@@ -18,7 +18,7 @@ function Catalog() {
     setProducts(data);
     setProdsToDisplay(data);
 
-    let cats = ["Fruit", "Dairy & Eggs", "Candy"];
+    let cats = ["Guitar", "Drums", "Piano", "Bass", "Cables"];
     setCategories(cats);
   }
 
