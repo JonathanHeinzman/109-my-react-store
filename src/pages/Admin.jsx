@@ -86,7 +86,7 @@ function Admin() {
               </div>
             </div>
             <form>
-              <h4 className="mb-3"> Products List:
+              <h4 className="mb-3 ms-4"> Products List:
                 {products.length === 0 ? (<span className="text-muted ms-2">There are no products</span>) : ("")}
               </h4>
             </form>
@@ -126,7 +126,7 @@ function Admin() {
               </div>
             </div>
             <form>
-              <h4 className="mb-3"> Coupon List: 
+              <h4 className="mb-3 ms-2"> Coupon List: 
                 {coupons.length === 0 ? (<span className="text-muted ms-2">There are no coupons</span>) : ("")}
               </h4>
             </form>

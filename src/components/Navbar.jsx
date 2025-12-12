@@ -23,7 +23,7 @@ function Navbar() {
     }
 
     return (
-    <nav className="navbar navbar-expand-lg bg-dark bg-gradient" data-bs-theme="dark">
+    <nav className="navbar navbar-expand-lg bg-dark " data-bs-theme="dark">
         <div className="container-fluid">
             <div className="navbar-brand">
                 <h1>My Music Store <IconMusic size={50} stroke={2} /></h1>
@@ -48,7 +48,7 @@ function Navbar() {
                 <div className='d-flex align-items-center gap-2'>
                     <div className="text-white">{user.name}</div>
                     <div className="text-white">
-                        <Link to={"/cart"} className='btn btn-dark'>
+                        <Link to={"/cart"} className='btn btn-outline-warning'>
                             <IconShoppingCart stroke={2} />{getTotalItems()}
                         </Link>
                     </div>
